@@ -492,4 +492,11 @@ public function podrozdunajcemAction()
     {
         return $this->render('default/bambo.html.twig');
     }
+    /**
+     * @Route("/drzewiej.html", name="drzewiej")
+     */
+    public function drzewiejAction()
+    {
+        return $this->render('default/drzewiej.html.twig');
+    }
 }
