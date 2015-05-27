@@ -460,7 +460,7 @@ public function podrozdunajcemAction()
     }
 
     /**
-     * @Route("/deszcz-jesienny.html", name="dzeszcz-jesienny")
+     * @Route("/deszcz-jesienny.html", name="deszcz-jesienny")
      */
     public function  deszczJesiennyAction()
     {
